@@ -8,7 +8,7 @@
 #make it executable for convenience reasons, and add it to your startup applications: 
 #(Preferences > Default applications for LXSession, then choose "Autostart". Add the command:
 #/path/to/notifyscript.sh
-#for more way to watch a directory refer to https://askubuntu.com/questions/518457/autostart-program-whenever-a-file-is-added-to-a-folder
+#for more ways to watch a directory refer to https://askubuntu.com/questions/518457/autostart-program-whenever-a-file-is-added-to-a-folder
 
 while true
 do
