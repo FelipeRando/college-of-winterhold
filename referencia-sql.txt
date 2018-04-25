@@ -1,0 +1,26 @@
+CREATE DATABASE <Nome do Banco de dados>
+GO
+
+USE <Nome do Banco de dados>
+
+CREATE TABLE <Nome da tabela> (
+	<nome do campo> <tipo do campo> [PRIMARY KEY],
+	<nome do campo> <tipo do campo> [FOREIGN KEY REFERENCES <nome da tabela>(<nome do campo>)],
+	...
+	)
+
+DROP TABLE <Nome da tabela>
+
+INSERT INTO <Nome da tabela>(<campo1>, <campo2>,...)
+	VALUES (<valor1>,<valor2>,...)
+
+
+SELECT */<campo1>,<campo2>,...
+	FROM <tabela1>,<tabela2>,...
+	[INNER JOIN <tabela3> ON <tabela2>.<campo1> = <tabela3>.<campo2>]
+	[ORDER BY <campo>] [ASC/DESC]
+	[GROUP BY <campo>]
+
+
+
+
